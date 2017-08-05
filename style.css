@@ -547,72 +547,155 @@ ul#nav li.active a,
     4. SERVICE AREA
 ----------------------------------*/
 
-.service-image {
-    margin-bottom: 40px;
-    overflow: hidden;
-    padding: 20px;
-    position: relative;
+.service-menu {
+    margin-bottom: 60px;
+}
+
+.service-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.service-menu ul li {
+    background: #363636 none repeat scroll 0 0;
+    color: #f7ba4d;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 7px 15px;
+    text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
-.service-image::before {
-    border-left: 2px solid;
-    border-top: 2px solid;
-    content: "";
-    height: 150px;
+.service-menu ul li.active,
+.service-menu ul li:hover {
+    background: #f7ba4d none repeat scroll 0 0;
+    color: #363636;
+}
+
+.single-service {
+    -moz-box-align: center;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    min-height: 300px;
+    position: relative;
+}
+
+.service-bg {
+    background-size: cover;
+    height: 100%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 150px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    width: 100%;
+    background: #ddd;
 }
 
-.service-image::after {
-    border-bottom: 2px solid;
-    border-right: 2px solid;
-    bottom: 0;
+.service-bg::after {
+    background: #000000 none repeat scroll 0 0;
     content: "";
-    height: 150px;
+    height: 100%;
+    left: 0;
+    opacity: 0;
     position: absolute;
-    right: 0;
-    width: 150px;
-    z-index: 9;
+    top: 0;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-}
-
-.single-service:hover .service-image::before,
-.single-service:hover .service-image::after {
-    border-color: #f7ba4d;
-}
-
-.service-image img {
     width: 100%;
 }
 
-.service-details h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    font-weight: 400;
+.service-bg-1 {
+    background: rgba(0, 0, 0, 0) url("img/portfolio/1.jpg") repeat scroll 0 0 / cover;
 }
 
-.single-service:hover .service-details h3 {
-    color: #f7ba4d;
+.service-bg-2 {
+    background: rgba(0, 0, 0, 0) url("img/portfolio/2.jpg") repeat scroll 0 0 / cover;
 }
 
-a.read-more {
+.service-bg-3 {
+    background: rgba(0, 0, 0, 0) url("img/portfolio/3.jpg") repeat scroll 0 0 / cover;
+}
+
+.service-bg-4 {
+    background: rgba(0, 0, 0, 0) url("img/portfolio/4.jpg") repeat scroll 0 0 / cover;
+}
+
+.service-bg-5 {
+    background: rgba(0, 0, 0, 0) url("img/portfolio/5.jpg") repeat scroll 0 0 / cover;
+}
+
+.service-bg-6 {
+    background: rgba(0, 0, 0, 0) url("img/portfolio/6.jpg") repeat scroll 0 0 / cover;
+}
+
+.service-bg-7 {
+    background: rgba(0, 0, 0, 0) url("img/portfolio/7.jpg") repeat scroll 0 0 / cover;
+}
+
+.service-view-details {
+    opacity: 0;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9;
+}
+
+.service-view-details a {
+    border: 1px solid;
     color: #f7ba4d;
     display: inline-block;
-    letter-spacing: 1px;
-    margin-top: 10px;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 12px;
+    text-align: center;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    width: 170px;
 }
 
-a.read-more:hover {
-    color: #363636;
+.service-view-details a i {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.service-view-details a:hover {
+    background: #f7ba4d;
+    border-color: #f7ba4d;
+    color: #fff;
+}
+
+.single-service:hover .service-bg::after {
+    opacity: 0.8;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.single-service:hover .service-view-details {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 
