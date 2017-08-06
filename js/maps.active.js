@@ -76,9 +76,9 @@
 
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(55.803056, 37.594479),
                 map: map,
                 icon: 'img/map-marker.png',
-                title: 'GREATAPP!'
+                title: 'Dveriaqua'
             });
         }
