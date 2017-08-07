@@ -60,7 +60,7 @@
                     "featureType": "water",
                     "elementType": "all",
                     "stylers": [{
-                        "color": "#f7ba4d"
+                        "color": "#55adb4"
                     }, {
                         "visibility": "on"
                     }]
