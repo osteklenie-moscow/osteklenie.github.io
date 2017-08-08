@@ -1,4 +1,4 @@
-y/*--------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------
 Theme Name: PHOTOGRAPHY PORTFOLIO
 Theme URI: http://themexone.com
 Author URI: http://themexone.com
@@ -376,7 +376,7 @@ ul#nav li.active a,
     font-size: 80px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #55adb4;
+    color: #f7ba4d;
 }
 
 .welcome-text h3 {
@@ -700,21 +700,21 @@ ul#nav li.active a,
 
 
 /*------------------------------
-    5. WORK AREA
+    5. PARTNER AREA
 --------------------------------*/
 
-.work-area {
+.partner-area {
     color: #fff;
     position: relative;
     line-height: 30px;
 }
 
-.work-area .area-title {
+.partner-area .area-title {
     margin-bottom: 0;
 }
 
-.work-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/work/work_area_bg.jpg") no-repeat scroll center center / cover;
+.partner-area-bg {
+    background: rgba(0, 0, 0, 0) url("img/partner/partner_area_bg.jpg") no-repeat scroll center center / cover;
     height: 100%;
     left: 0;
     position: absolute;
@@ -722,7 +722,7 @@ ul#nav li.active a,
     width: 100%;
 }
 
-.work-area-bg::after {
+.partner-area-bg::after {
     background: #000 none repeat scroll 0 0;
     content: "";
     height: 100%;
@@ -733,13 +733,13 @@ ul#nav li.active a,
     width: 100%;
 }
 
-.work-area .area-title h2 {
+.partner-area .area-title h2 {
     color: #fff;
     margin-top: 40px;
 }
 
 
-/*.row.work-catagories {
+/*.row.partner-catagories {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -752,7 +752,7 @@ ul#nav li.active a,
     flex-direction: row;
 }*/
 
-a.work-details {
+a.partner-details {
     background: #55adb4 none repeat scroll 0 0;
     border-radius: 50px;
     color: #363636;
@@ -764,12 +764,12 @@ a.work-details {
     text-transform: uppercase;
 }
 
-a.work-details:hover {
+a.partner-details:hover {
     background: #fff none repeat scroll 0 0;
     color: #363636;
 }
 
-.work-menu {
+.partner-menu {
     border-radius: 50%;
     box-shadow: 0 0 15px #55adb4;
     margin: 0 auto;
@@ -779,7 +779,7 @@ a.work-details:hover {
     width: 80%;
 }
 
-ul.work-flow-navigation {
+ul.partner-flow-navigation {
     border-radius: 50%;
     margin: 0;
     overflow: hidden;
@@ -792,18 +792,18 @@ li.col-md-6.col-xs-6 {
     padding: 0;
 }
 
-ul.work-flow-navigation li {
+ul.partner-flow-navigation li {
     display: inline-block;
     width: 50%;
 }
 
-ul.work-flow-navigation li img {
+ul.partner-flow-navigation li img {
     background: transparent none repeat scroll 0 0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
-ul.work-flow-navigation li.active img {
+ul.partner-flow-navigation li.active img {
     background: #55adb4 none repeat scroll 0 0;
     left: 0;
     padding: 5px;
@@ -813,7 +813,7 @@ ul.work-flow-navigation li.active img {
     z-index: 9;
 }
 
-ul.work-flow-navigation li a::after {
+ul.partner-flow-navigation li a::after {
     background: #55adb4 none repeat scroll 0 0;
     content: "";
     height: 100%;
@@ -827,7 +827,7 @@ ul.work-flow-navigation li a::after {
     z-index: 9;
 }
 
-ul.work-flow-navigation li.active a::after {
+ul.partner-flow-navigation li.active a::after {
     opacity: 0.5;
 }
 
