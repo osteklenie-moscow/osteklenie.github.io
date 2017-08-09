@@ -1,29 +1,3 @@
-/*--------------------------------------------------------------------------------------
-Theme Name: PHOTOGRAPHY PORTFOLIO
-Theme URI: http://themexone.com
-Author URI: http://themexone.com
-Description: 100% Responsive, Highly Customizable, SEO Friendly Personal Portfolio HTML template using Twitter Bootstrap Latest, Search Engine Friendly.
-Author: THEMEXONE
-Version: 1.0
-----------------------------------------------------------------------------------------
-   1. BASE CSS
-    2. TOP AREA
-        2.1 MAINMENU AREA
-        2.2 WELCOME TEXT AREA
-    3. ABOUT AREA
-    4. SERVICE AREA
-    5. WORK AREA
-    6. PORTFOLIO AREA
-    7. TEAM AREA
-    8. TESTMONIAL AREA
-    9. PRICEING AREA
-    10. SUBSCRIBER AREA
-    11. CONTACT AREA
-    12. FOOTER AREA
-    13. SCROLL TO TOP
-----------------------------------------------------------------------------------------*/
-
-
 /*--------------------
    1. BASE CSS
 ----------------------*/
@@ -186,38 +160,6 @@ input:-webkit-autofill:focus {
     position: relative;
     width: 100%;
 }
-
-/*
-.top-area-bg {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.top-area-bg::before {
-    background: rgba(0, 0, 0, 0) url("img/slider/slide_1.jpg") no-repeat scroll center center / cover;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.top-area-bg::after {
-    background: #000 none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-*/
-
 
 /*---------------------------------
     2.1 MAINMENU AREA
@@ -738,20 +680,6 @@ ul#nav li.active a,
     margin-top: 40px;
 }
 
-
-/*.row.partner-catagories {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-}*/
-
 a.partner-details {
     background: #55adb4 none repeat scroll 0 0;
     border-radius: 50px;
@@ -1195,116 +1123,6 @@ ul.partner-flow-navigation li.active a::after {
     color: #55adb4;
 }
 
-
-/*------------------------------
-    9. PRICEING AREA
-
-
-.single-price {
-    background: #55adb4 none repeat scroll 0 0;
-    padding-top: 60px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    position: relative;
-}
-
-.single-price::after {
-    border-right: 150px solid #363636;
-    border-top: 50px solid transparent;
-    bottom: 0;
-    content: "";
-    height: 0;
-    position: absolute;
-    right: 0;
-    -webkit-transition: border-color 0.3s ease 0s;
-    transition: border-color 0.3s ease 0s;
-    width: 0;
-}
-
-.price-top-title {
-    background: #363636 none repeat scroll 0 0;
-    color: #fff;
-    min-height: 110px;
-    padding: 20px 0;
-    position: relative;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.price-title {
-    background: #363636 none repeat scroll 0 0;
-    border-radius: 50%;
-    box-shadow: 0 0 0 5px #55adb4;
-    height: 150px;
-    left: 50%;
-    margin-left: -75px;
-    padding-top: 49px;
-    position: absolute;
-    top: -23px;
-    width: 150px;
-}
-
-.price-details {
-    padding: 50px 0;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.price-details ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
-
-.price-details ul li {
-    padding: 7px 0;
-}
-
-.price-button {
-    border-radius: 0 0 20px 20px;
-    padding-bottom: 70px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.price-button a {
-    background: #363636 none repeat scroll 0 0;
-    border-radius: 50px;
-    color: #fff;
-    letter-spacing: 1px;
-    padding: 15px 40px;
-    font-weight: 600;
-}
-
-.single-price.active .price-top-title,
-.single-price:hover .price-top-title {
-    background: #55adb4 none repeat scroll 0 0;
-}
-
-.single-price.active,
-.single-price:hover {
-    background: #363636;
-    color: #ffffff;
-}
-
-.single-price.active:after,
-.single-price:hover:after {
-    border-right: 150px solid #55adb4;
-    border-top: 50px solid transparent;
-}
-
-.single-price.active .price-button a,
-.single-price:hover .price-button a {
-    background: #55adb4 none repeat scroll 0 0;
-    color: #363636;
-}
-
-.price-button a:hover {
-    background: #ffffff !important;
-    color: #363636;
-}
-
--------------------------------*/
 /*------------------------------
     10. SUBSCRIBER AREA
 --------------------------------*/
